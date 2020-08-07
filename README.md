@@ -40,13 +40,13 @@ CocInstall coc-emmet coc-explorer coc-json coc-prettier coc-snippets coc-css coc
 
 ---
 
-If you have an issue with Python provider, Install Pythong. In my case I install Python 3.8
+If you have an issue with Python provider, Install Python. In my case I install Python 3.8
 
 ```shell
 brew install python@3.8
 ```
 
-Then install python provider for neovim
+Then install Python provider for Neovim
 
 ```shell
 python3 -m pip install --user --upgrade pynvim
