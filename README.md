@@ -20,7 +20,7 @@ Install `vim-plug`
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-open nvim ang execute `PlugInstall`
+open nvim and execute `PlugInstall`
 
 ```shell
 nvim
@@ -36,6 +36,20 @@ Install CoC Extensions
 
 ```
 CocInstall coc-emmet coc-explorer coc-json coc-prettier coc-snippets coc-css coc-tsserver coc-vimlsp
+```
+
+---
+
+If you have an issue with Python provider, Install Pythong. In my case I install Python 3.8
+
+```shell
+brew install python@3.8
+```
+
+Then install python provider for neovim
+
+```shell
+python3 -m pip install --user --upgrade pynvim
 ```
 
 ## Acknowledgements
