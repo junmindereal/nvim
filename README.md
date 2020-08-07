@@ -38,6 +38,16 @@ Install CoC Extensions
 CocInstall coc-emmet coc-explorer coc-json coc-prettier coc-snippets coc-css coc-tsserver coc-vimlsp
 ```
 
+Instal FZF, Ripgrep, Universal-ctags, Silver-searcher for file searching
+
+```shell
+brew install fzf
+brew install ripgrep
+brew install --HEAD universal-ctags/universal-ctags/universal-ctags
+brew install the_silver_searcher
+brew install fd
+```
+
 ---
 
 If you have an issue with Python provider, Install Python. In my case I install Python 3.8
