@@ -4,6 +4,10 @@ My neovim setup that I have found on youtube by [chrisatmachine](https://www.you
 
 ## Installation
 
+```shell
+brew install neovim
+```
+
 clone the repo by going to `./config`
 
 ```shell
