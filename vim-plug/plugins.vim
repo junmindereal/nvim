@@ -36,6 +36,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'justinmk/vim-sneak'
     " Quickscope
     Plug 'unblevable/quick-scope'
+    " Terminal
+    Plug 'voldikss/vim-floaterm'
 
 call plug#end()
 
