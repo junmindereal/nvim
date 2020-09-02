@@ -47,3 +47,6 @@ nnoremap <Leader>O O<Esc>^Da
 xnoremap <Up> dkP
 " Move down
 xnoremap <Down> dp
+
+"This unsets the "last search pattern" register by hitting return
+nnoremap <cr> :noh<CR><CR>:<backspace>

@@ -33,7 +33,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
     " Sneak
-    Plug 'justinmk/vim-sneak'
+    " Plug 'justinmk/vim-sneak'
     " Quickscope
     Plug 'unblevable/quick-scope'
     " Terminal
