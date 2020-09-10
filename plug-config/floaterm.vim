@@ -4,7 +4,7 @@ let g:floaterm_keymap_prev   = '<Leader>,'
 let g:floaterm_keymap_new    = '<Leader>tn'
 let g:floaterm_keymap_kill   = '<Leader>tw'
 let g:floaterm_wintype       = 'normal'
-let g:floaterm_position      = 'right'
+let g:floaterm_position      = 'bottom'
 
 
 " Floaterm

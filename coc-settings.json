@@ -1,5 +1,7 @@
 {
   "coc.preferences.formatOnSaveFiletypes": ["*"],
+  "prettier.singleQuote": true,
+  "prettier.formatterPriority": -1,
 
   // explorer
   "explorer.width": 30,
