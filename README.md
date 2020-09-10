@@ -69,3 +69,4 @@ python3 -m pip install --user --upgrade pynvim
 ## Acknowledgements
 
 [Christian Chiarulli](https://github.com/ChristianChiarulli)
+[ThePrimeagen](https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw)
