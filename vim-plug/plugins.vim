@@ -14,7 +14,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Themes
-    Plug 'mhartington/oceanic-next'
+    " OceanicNext
+    " Plug 'mhartington/oceanic-next'
+    Plug 'morhetz/gruvbox' 
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Status line
