@@ -15,12 +15,14 @@ set splitbelow                          " Horizontal splits will automatically b
 set splitright                          " Vertical splits will automatically be to the right
 set t_Co=256                            " Support 256 colors
 set conceallevel=0                      " So that I can see `` in markdown files
-set tabstop=4                           " number of visual spaces per TAB
-set softtabstop=4                       " number of spaces in tab when editing
-set shiftwidth=4                        " number of spaces to use for autoindent
+set tabstop=2                           " number of visual spaces per TAB
+set softtabstop=2                       " number of spaces in tab when editing
+set shiftwidth=2                        " number of spaces to use for autoindent
 set autoindent
-set copyindent                          " copy indent from previous line
+set smarttab
 set expandtab                           " Converts tabs to spaces
+set ai                                  " Auto Indent
+set si                                  " Smart Indent
 set laststatus=0                        " Always display the status line
 set relativenumber                      " Relative numbers
 set cursorline                          " Enable highlighting of the current line

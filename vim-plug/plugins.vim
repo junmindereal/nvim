@@ -10,7 +10,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
-    Plug 'mxw/vim-jsx'
+    Plug 'yuezk/vim-js'
+    Plug 'maxmellon/vim-jsx-pretty'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Themes
@@ -42,6 +43,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'voldikss/vim-floaterm'
     " Prisma 2 Syntax Highlight
     Plug 'pantharshit00/vim-prisma'
+    " Linting
+    Plug 'dense-analysis/ale'
 
 call plug#end()
 
