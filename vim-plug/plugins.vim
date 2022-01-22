@@ -40,7 +40,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Quickscope
     " Plug 'unblevable/quick-scope'
     " Terminal
-    Plug 'voldikss/vim-floaterm'
+    " Plug 'voldikss/vim-floaterm'
     " Prisma 2 Syntax Highlight
     Plug 'pantharshit00/vim-prisma'
     " Linting

@@ -1,15 +1,17 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["*"],
-  "prettier.singleQuote": true,
-  "prettier.formatterPriority": -1,
-
+  //tsserver
+  "tsserver.enable": false,
   // explorer
-  "explorer.width": 30,
+  "explorer.width": 70,
   "explorer.file.showHiddenFiles": true,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
-  "explorer.keyMappings": {
-    "<cr>": ["expandable?", "expand", "open"],
+  "explorer.keyMappings.global": {
+    "<cr>": [
+      "expandable?",
+      "expand",
+      "open"
+    ],
     "v": "open:vsplit"
   }
 }
