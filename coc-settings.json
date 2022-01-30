@@ -1,11 +1,10 @@
 {
-  //tsserver
-  "tsserver.enable": false,
-  // explorer
-  "explorer.width": 70,
+  "explorer.width": 50,
   "explorer.file.showHiddenFiles": true,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
+  "explorer.file.showHiddenFiles": true,
+  "explorer.quitOnOpen": true,
   "explorer.keyMappings.global": {
     "<cr>": [
       "expandable?",
