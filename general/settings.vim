@@ -4,10 +4,10 @@ set mouse=a                             " Enable your mouse
 set splitbelow                          " Horizontal splits will automatically be below
 set splitright                          " Vertical splits will automatically be to the right
 set expandtab                           " Converts tabs to spaces
-set tabstop=4                           " number of visual spaces per TAB
-set softtabstop=4                       " number of spaces in tab when editin
-set shiftwidth=4                        " number of spaces to use for autoindent
-set showtabline=4                       " Always show tabs
+set tabstop=2                           " number of visual spaces per TAB
+set softtabstop=2                       " number of spaces in tab when editin
+set shiftwidth=2                        " number of spaces to use for autoindent
+set showtabline=2                       " Always show tabs
 set ignorecase                          " search case insensitive
 set smartcase                           " search via smartcase 
 set incsearch                           " search incremental
@@ -48,5 +48,7 @@ set shortmess+=c                        " Don't pass messages to ins-completion-
 
 
 set shell=/usr/local/bin/bash\ --rcfile\ ~/.bash_profile " sets vim terminal as the bash the you regularly use
+let g:ale_disable_lsp = 1
+let php_htmlInStrings = 1
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC

@@ -2,12 +2,6 @@
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 
-" Use alt + hjkl to resize windows
-nnoremap <M-j>    :resize -2<CR>
-nnoremap <M-k>    :resize +2<CR>
-nnoremap <M-h>    :vertical resize -2<CR>
-nnoremap <M-l>    :vertical resize +2<CR>
-
 " I hate escape more than anything else
 inoremap jk <Esc>
 inoremap kj <Esc>
@@ -16,15 +10,15 @@ inoremap kj <Esc>
 " inoremap <c-u> <ESC>viwUi
 " nnoremap <c-u> viwU<Esc>
 
-" TAB in general mode will move to text buffer
-nnoremap <TAB> :bnext<CR>
-" SHIFT-TAB will go back
-nnoremap <S-TAB> :bprevious<CR>
+" Go to previous buffer
+nnoremap <TAB> :e# <CR> 
 
 " Alternate way to save
 nnoremap <C-s> :w<CR>
 " Alternate way to quit
 nnoremap <C-Q> :q!<CR>
+" Alternate way to quit window
+nnoremap <C-W> :q<CR>
 " Use control-c instead of escape
 nnoremap <C-c> <Esc>
 " <TAB>: completion.

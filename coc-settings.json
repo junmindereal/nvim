@@ -5,6 +5,7 @@
   "explorer.previewAction.onHover": false,
   "explorer.file.showHiddenFiles": true,
   "explorer.quitOnOpen": true,
+  "diagnostic.displayByAle": true,
   "explorer.keyMappings.global": {
     "<cr>": [
       "expandable?",

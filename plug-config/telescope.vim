@@ -1,19 +1,19 @@
 lua << EOF
 require('telescope').setup{
   defaults = {
+      path_display = {'smart'},
       file_sorter = require('telescope.sorters').get_fzf_sorter,
-      prompt_prefix = ' >',
+      prompt_prefix = '> ',
       file_previewer = require('telescope.previewers').vim_buffer_cat.new,
       grep_previewer = require('telescope.previewers').vim_buffer_vimgrep.new,
       qflist_previewer = require('telescope.previewers').vim_buffer_qflist.new,
       file_ignore_patterns = {
-          "node_modules", ".docker", ".git"
+          "node_modules", ".docker", ".git", ".build"
       }
   },
   pickers = {
       find_files =  {
-          theme = "ivy",
-          previewer = false
+          theme = "ivy"
       },
       live_grep =  {
           theme = "ivy"
@@ -25,8 +25,7 @@ require('telescope').setup{
           theme = "ivy"
       },
       git_files =  {
-          theme = "ivy",
-          previewer = false
+          theme = "ivy"
       },
   },
   extensions = {
