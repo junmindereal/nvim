@@ -16,9 +16,7 @@ nnoremap <TAB> :e# <CR>
 " Alternate way to save
 nnoremap <C-s> :w<CR>
 " Alternate way to quit
-nnoremap <C-Q> :q!<CR>
-" Alternate way to quit window
-nnoremap <C-W> :q<CR>
+nnoremap <C-Q> :q<CR>
 " Use control-c instead of escape
 nnoremap <C-c> <Esc>
 " <TAB>: completion.

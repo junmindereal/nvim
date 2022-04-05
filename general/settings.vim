@@ -7,7 +7,7 @@ set expandtab                           " Converts tabs to spaces
 set tabstop=2                           " number of visual spaces per TAB
 set softtabstop=2                       " number of spaces in tab when editin
 set shiftwidth=2                        " number of spaces to use for autoindent
-set showtabline=2                       " Always show tabs
+set showtabline=2                      " Always show tabs
 set ignorecase                          " search case insensitive
 set smartcase                           " search via smartcase 
 set incsearch                           " search incremental
